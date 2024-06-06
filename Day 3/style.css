@@ -1,0 +1,14 @@
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    box-shadow: 23cm;
+}
+.paragraph{                 /*class*/
+    text-align: center;
+    color: blue;
+}
+#paragraph{                 /*id*/
+    text-align: end;
+    color: aquamarine;
+}
