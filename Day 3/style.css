@@ -3,6 +3,7 @@ img{
     width: 200px;
     border-radius: 20%;
     box-shadow: 23cm;
+    image-rendering: crisp-edges;
 }
 .paragraph{                 /*class*/
     text-align: center;
@@ -11,4 +12,12 @@ img{
 #paragraph{                 /*id*/
     text-align: end;
     color: aquamarine;
+}
+article{
+    
+    background-color: aqua;
+}
+
+#A{
+    background-color: rgb(193, 147, 147);
 }
