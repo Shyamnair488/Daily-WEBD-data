@@ -1,5 +1,14 @@
 header{
     text-align: center;
+    border: solid black;
+    font-size: xx-large;
+    background-color: rgb(46, 259, 186)
+    
+}
+
+.start{
+    background-color: rgb(46, 235, 184);
+    border: solid;
 }
 h1
 {
@@ -9,37 +18,73 @@ h1
 }
 
 img{
-    border-radius: 20%;
+    size: 2px;
+
+    border-radius: 100%;
     display: block;
     width: 50%;
-    padding: 5px;
-
+    padding-left: 25%;
+    padding-right: 15%;
+    padding-bottom: 50px;
 }
-.detail{
-    align-content: end;
-    color:rgb(121, 35, 164);
+
+h4{
+    padding: 1px;
+    text-align: center;
+    color: rgb(207, 18, 18);
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
+
+ul{
+    padding-left: 560px;
+    color:rgb(207, 18, 18);
+}
+
+
+
 .qualification
 {
     text-align: center;
-    color:rgb(1991, 75, 164)
+    text-overflow: initial;
+    align-items: center;
+    font-size:x-large;
+    color:black
 
 }
-table,td,th
+table
 {
     text-align: center;
-    border-style: solid ;
     border-width: 1px;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 15%;
+}
+
+td,th{
+    text-align: center;
+    border-width: 1px;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    border: solid black;
+
 }
 
 footer {
     text-align: center;
     color: #3012f1;
+    border: solid black;
+    background-color: rgb(46, 259, 186);
 
  }
 
-.start{
-    background-color: bisque;
+
+
+.aboutme
+{
+    text-align: center;
+}
+.content{
+    text-align: justify;
+
 }
