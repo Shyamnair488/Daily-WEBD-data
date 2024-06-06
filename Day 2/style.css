@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    color: aqua;
+    font-style: italic;
+    font-weight: 1000;
+
+}
+
+h2 {
+    text-align: left;
+    text-decoration-line: underline;
+
+}
+
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: blue;
+}
+
+table,
+td,
+tr,
+th {
+    border-width: 1%;
+    border-style: solid;
+
+}
+
+ul,
+li {
+    color: brown;
+}
+
+.ss {
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+    bottom: unset;
+}
