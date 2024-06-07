@@ -1,0 +1,13 @@
+*{  /* universal selector*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+h1{
+    color: burlywood;
+}
+
+input{
+    color: black;
+
+}

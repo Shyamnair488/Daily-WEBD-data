@@ -1,0 +1,119 @@
+/* Login Page Style */
+
+body{
+    /* padding-left: 17%;
+    padding-right: 17%; */
+    padding-left: 34%;
+    padding-right: 34%;
+    background-color: rgb(243, 245, 247);
+
+}
+#login_facebook{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 70px;
+    font-weight: bolder;
+    color: rgba(3, 100, 255, 0.991);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#login_para{
+    text-align: center;
+    font-weight: lighter;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login{
+    text-align: center;
+    font-size: large;
+    border: solid rgba(194, 192, 190, 0.183);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3%;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.301);
+}
+
+#login_input{
+    border: solid rgba(194, 192, 190, 0.183);
+    width: 350px;
+    height: 50px;
+    text-align: left;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Log_in_button{
+    border: solid rgba(46, 95, 242, 0.998);
+    width: 350px;
+    height: 50px;
+    padding-top: 2px;
+    text-align: center ;
+    border-radius: 8px;
+    background-color:rgba(46, 95, 242, 0.998);    ;
+    font-size: x-large;
+    color: aliceblue;
+    font-weight: bolder;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+#forget_passward{
+    color: blue;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+hr{
+    size: 2;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 40%;
+    background-color: green;
+}
+
+#new_account{    
+    width: 200px;
+    height: 50px;
+    text-align: center ;
+    border-radius: 8px;
+    background-color:rgb(38, 184, 54);    
+    font-size: large;
+    color: aliceblue;
+    font-weight: bolder;
+    border: solid rgba(38, 184, 54, 0.888);
+
+}
+#login_last_para{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+#footer{
+    text-align: center;
+    font-size: small;
+}
+
+
+/* Registration page style */
+
+#false{
+    
+    color: transparent;
+}
+
+#abc{
+    text-align: center;
+    font-size: large;
+    border: solid rgba(194, 192, 190, 0.183);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3%;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.301);
+}
