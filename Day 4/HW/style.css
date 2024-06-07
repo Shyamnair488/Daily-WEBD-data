@@ -1,10 +1,11 @@
 /* Login Page Style */
 
+
 body{
-    /* padding-left: 17%;
-    padding-right: 17%; */
-    padding-left: 34%;
-    padding-right: 34%;
+    padding-left: 17%;
+    padding-right: 17%;
+    /* padding-left: 34%;
+    padding-right: 34%; */
     background-color: rgb(243, 245, 247);
 
 }
@@ -100,20 +101,125 @@ hr{
 }
 
 
+
+
 /* Registration page style */
 
-#false{
-    
-    color: transparent;
+#Reg_body{
+    padding-left: 18%;
+    padding-right: 18%;
+    /* padding-left: 34%;
+    padding-right: 34%; */
+    background-color: rgb(243, 245, 247);
+
 }
 
-#abc{
+#logo_facebook{
     text-align: center;
+    padding-top: 10px;
+    font-size: 70px;
+    font-weight: bolder;
+    color: rgba(3, 100, 255, 0.991);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+.registration{
+    text-align: left;
     font-size: large;
     border: solid rgba(194, 192, 190, 0.183);
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 3%;
     border-radius: 3%;
     background-color: white;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.301);
 }
+
+#registration_input{
+    border: solid rgba(194, 192, 190, 0.183);
+    width: 350px;
+    height: 38px;
+    text-align: left;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#date{
+    border: solid rgba(194, 192, 190, 0.183);
+    width: 350px;
+    height: 38px;
+    text-align: left;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Name{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#name{
+    border: solid rgba(194, 192, 190, 0.183);
+    width: 150px;
+    height: 38px;
+    text-align: left;
+    border-radius: 8px;
+    align-items: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Gender{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#gender{
+    border: solid rgba(194, 192, 190, 0.183);
+    width: 100px;
+    height: 38px;
+    text-align: left;
+    border-radius: 8px;
+    align-items: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#paragraph{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.589);
+
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+#Sign_Up{
+    width: 200px;
+    height: 50px;
+    text-align: center ;
+    border-radius: 8px;
+    background-color:rgb(38, 184, 54);    
+    font-size: large;
+    color: aliceblue;
+    font-weight: bolder;
+    border: solid rgba(38, 184, 54, 0.888);
+    
+}
+.Sign_up{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+}
+

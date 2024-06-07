@@ -3,45 +3,47 @@
         <title>Facebook - log in or sign up</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body id="Reg_body">
         <div class="false">
-            <h1 id="login_facebook">facebook</h1>
-            <div class="abc">
+            <h1 id="logo_facebook">facebook</h1>
+            <div class="registration">
                 <h1>Sign Up</h1>
                 <h4>It's quick and easy.</h4>
                 <input type="text || number"
-                    placeholder="&nbsp &nbsp Email address or phone number"
-                    id="login_input">
+                    placeholder="&nbsp &nbsp Mobile number or email address"
+                    id="registration_input">
                 <br>
                 <br>
                 <input type="varchar" placeholder="&nbsp &nbsp New passward"
-                    id="login_input">
-                <br>
-                <br>
+                    id="registration_input">
                 <h5>Date of birth</h5>
-                <input type="date" placeholder="&nbsp &nbsp 7"
-                    id>
-                <br>
-                <input type="varchar" placeholder="&nbsp &nbsp First name"
-                    id>
-                <input type="variable" placeholder="&nbsp &nbsp Surname"
-                    id>
+                <input type="date" id="date">
                 <br>
                 <br>
+                <div class="Name">
+                    <input type="varchar" placeholder="&nbsp &nbsp First name"
+                        id="name">
+                    <input type="variable" placeholder="&nbsp &nbsp Surname"
+                        id="name">
+                </div>
                 <h5>Gender</h5>
-                <button id>&nbsp Female</button>
-                <button id>&nbsp Male</button>
-                <button id>&nbsp Custom</button>
-                <br>
-                <br>
-                <p>People who use our service may have uploaded your contact
-                    information to Facebook. Learn more. <br>
+                <div class="Gender">
+                    <button id="gender">&nbsp Female</button>
+                    <button id="gender">&nbsp Male</button>
+                    <button id="gender">&nbsp Other</button>
+
+                </div>
+                <p id="paragraph">People who use our service may have uploaded
+                    your contact
+                    information to Facebook. Learn more. <br><br>
 
                     By clicking Sign Up, you agree to our Terms, Privacy Policy
                     and Cookies Policy. You may receive SMS notifications from
                     us and can opt out at any time.</p>
-                <button id="new_account"><a href="login.html">Sign
-                        up</a></button>
+                <div class="Sign_Up">
+                    <button id="Sign_Up"><a
+                            href="login.html">Signup</a></button>
+                </div>
             </div>
 
             <footer id="footer">
