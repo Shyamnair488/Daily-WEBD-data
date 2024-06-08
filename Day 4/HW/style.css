@@ -1,6 +1,5 @@
 /* Login Page Style */
 
-
 body {
     /* padding-left: 17%;
     padding-right: 17%;     */
@@ -65,7 +64,6 @@ body {
 
 #Log_in_button:hover {
     background-color: rgba(40, 99, 256, 0.844);
-    /* Green */
     color: rgb(14, 6, 6);
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
@@ -106,7 +104,6 @@ hr {
 
 #new_account:hover {
     background-color: rgba(40, 186, 61, 0.844);
-    /* Green */
     color: rgb(14, 6, 6);
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
@@ -123,8 +120,7 @@ hr {
     font-size: small;
 }
 
-
-
+/* ------------------------------------------------------------------------------------------------ */
 
 /* Registration page style */
 
@@ -246,7 +242,6 @@ a {
 
 #Sign_Up:hover {
     background-color: rgba(40, 199, 56, 0.844);
-    /* Green */
     color: rgb(14, 6, 6);
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
@@ -257,11 +252,14 @@ a {
     padding-bottom: 10px;
 }
 
+/* ------------------------------------------------------------------------------------------------ */
 
+/* Home page */
 
 
 .base {
     padding-top: 230px;
+    
 }
 
 #base {
@@ -271,4 +269,105 @@ a {
     font-weight: bolder;
     color: rgba(3, 100, 255, 0.991);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition-duration: 0.5s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#base:hover {
+    background-color: rgba(40, 99, 256, 0.844);
+    color: rgb(10, 6, 244);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* ------------------------------------------------------------------------------------------------ */
+
+/* forget page */
+.forget{
+    /* padding-left: 7%;
+    padding-right: 7%;     */
+    padding-left: 28%;
+    padding-right: 28%;
+    padding: auto;
+    background-color: rgb(243, 245, 247);
+}
+#top_forget{
+    border: solid rgba(194, 192, 190, 0.183);
+
+}
+
+#forget_facebook {
+    text-align: left;
+    padding-top: 15px;
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgba(3, 100, 255, 0.991);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.forget_box{
+
+    border: solid rgba(194, 192, 190, 0.183);;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+#forget_input {
+    border: solid rgba(194, 192, 190, 0.183);
+    width: 500px;
+    height: 40px;
+    margin-left: 20px;
+    text-align: left;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cancel {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-left: 150px;
+    border-radius: 8px;
+    font-size: large;
+    font-weight: bolder;
+    background-color: rgba(38, 184, 54);
+    border: solid rgba(38, 184, 54);
+    transition-duration: 0.5s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cancel:hover {
+    background-color: rgba(40, 186, 61, 0.844);
+    color: rgb(14, 6, 6);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#search {
+    border: solid rgba(46, 95, 242, 0.998);
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 7px;
+    font-size: large;
+    font-weight: bolder;
+    background-color: rgba(46, 95, 242, 0.998);
+    color: aliceblue;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#search:hover {
+    background-color: rgba(40, 99, 256, 0.844);
+    color: rgb(14, 6, 6);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+hr {
+    size: 2;
+    width: 61%;
+    background-color: green;
 }
