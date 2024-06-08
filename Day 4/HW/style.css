@@ -1,31 +1,32 @@
 /* Login Page Style */
 
 
-body{
+body {
     /* padding-left: 17%;
-    padding-right: 17%; */
+    padding-right: 17%;     */
     padding-left: 34%;
     padding-right: 34%;
     background-color: rgb(243, 245, 247);
 
 }
-#login_facebook{
+
+#login_facebook {
     text-align: center;
     padding-top: 10px;
     font-size: 70px;
     font-weight: bolder;
     color: rgba(3, 100, 255, 0.991);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#login_para{
+#login_para {
     text-align: center;
     font-weight: lighter;
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.login{
+.login {
     text-align: center;
     font-size: large;
     border: solid rgba(194, 192, 190, 0.183);
@@ -36,7 +37,7 @@ body{
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.301);
 }
 
-#login_input{
+#login_input {
     border: solid rgba(194, 192, 190, 0.183);
     width: 350px;
     height: 50px;
@@ -46,29 +47,42 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#Log_in_button{
+#Log_in_button {
     border: solid rgba(46, 95, 242, 0.998);
     width: 350px;
     height: 50px;
     padding-top: 2px;
-    text-align: center ;
+    text-align: center;
     border-radius: 8px;
-    background-color:rgba(46, 95, 242, 0.998);    ;
+    background-color: rgba(46, 95, 242, 0.998);
+    ;
     font-size: x-large;
     color: aliceblue;
     font-weight: bolder;
+    transition-duration: 0.5s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-a{
+
+#Log_in_button:hover {
+    background-color: rgba(40, 99, 256, 0.844);
+    /* Green */
+    color: rgb(14, 6, 6);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
     color: aliceblue;
     text-decoration: none;
 }
-#forget_passward{
+
+#forget_passward {
     color: blue;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
-hr{
+
+hr {
     size: 2;
     padding-left: 50px;
     padding-right: 50px;
@@ -76,26 +90,35 @@ hr{
     background-color: green;
 }
 
-#new_account{    
+#new_account {
     width: 200px;
     height: 50px;
-    text-align: center ;
+    text-align: center;
     border-radius: 8px;
-    background-color:rgb(38, 184, 54);    
+    background-color: rgb(38, 184, 54);
     font-size: large;
     color: aliceblue;
     font-weight: bolder;
     border: solid rgba(38, 184, 54, 0.888);
-
+    transition-duration: 0.5s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-#login_last_para{
+
+#new_account:hover {
+    background-color: rgba(40, 186, 61, 0.844);
+    /* Green */
+    color: rgb(14, 6, 6);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#login_last_para {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     padding: 20px;
 }
 
-#footer{
+#footer {
     text-align: center;
     font-size: small;
 }
@@ -105,7 +128,7 @@ hr{
 
 /* Registration page style */
 
-#Reg_body{
+#Reg_body {
     /* padding-left: 18%;
     padding-right: 18%; */
     padding-left: 34%;
@@ -114,16 +137,16 @@ hr{
 
 }
 
-#logo_facebook{
+#logo_facebook {
     text-align: center;
     padding-top: 10px;
     font-size: 70px;
     font-weight: bolder;
     color: rgba(3, 100, 255, 0.991);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.registration{
+.registration {
     text-align: left;
     font-size: large;
     border: solid rgba(194, 192, 190, 0.183);
@@ -135,11 +158,13 @@ hr{
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.301);
 }
 
-#ITS,#dob,#G{
+#ITS,
+#dob,
+#G {
     color: rgba(0, 0, 0, 0.589);
 }
 
-#registration_input{
+#registration_input {
     border: solid rgba(194, 192, 190, 0.183);
     width: 350px;
     height: 38px;
@@ -149,7 +174,7 @@ hr{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#date{
+#date {
     border: solid rgba(194, 192, 190, 0.183);
     width: 350px;
     height: 38px;
@@ -159,12 +184,12 @@ hr{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.Name{
+.Name {
     padding-left: 20px;
     padding-right: 20px;
 }
 
-#name{
+#name {
     border: solid rgba(194, 192, 190, 0.183);
     width: 150px;
     height: 38px;
@@ -175,12 +200,12 @@ hr{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.Gender{
+.Gender {
     padding-left: 20px;
     padding-right: 20px;
 }
 
-#gender{
+#gender {
     border: solid rgba(194, 192, 190, 0.183);
     width: 100px;
     height: 38px;
@@ -191,7 +216,7 @@ hr{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#paragraph{
+#paragraph {
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
@@ -199,39 +224,51 @@ hr{
 
 }
 
-a{
+a {
     color: aliceblue;
     text-decoration: none;
 }
 
 
-#Sign_Up{
+#Sign_Up {
     width: 200px;
     height: 50px;
-    text-align: center ;
+    text-align: center;
     border-radius: 8px;
-    background-color:rgb(38, 184, 54);    
+    background-color: rgb(38, 184, 54);
     font-size: large;
     color: aliceblue;
     font-weight: bolder;
     border: solid rgba(38, 184, 54, 0.888);
-    
+    transition-duration: 0.5s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.Sign_up{
+
+#Sign_Up:hover {
+    background-color: rgba(40, 199, 56, 0.844);
+    /* Green */
+    color: rgb(14, 6, 6);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Sign_up {
     padding-left: 80px;
     padding-right: 80px;
     padding-bottom: 10px;
 }
-  
-.base{
+
+
+
+
+.base {
     padding-top: 230px;
 }
 
-#base{
+#base {
     text-align: center;
     font-size: 50px;
     width: 450px;
     font-weight: bolder;
     color: rgba(3, 100, 255, 0.991);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
