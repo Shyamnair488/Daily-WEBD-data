@@ -210,6 +210,16 @@ hr {
     align-items: center;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin: 2.5px;
+}
+
+#gender:hover {
+    box-shadow: 0 4px 8px  rgba(0,0,0,0.24);
+  }
+
+#gender:active { 
+    background-color:blue;  
 }
 
 #paragraph {
