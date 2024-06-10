@@ -181,13 +181,13 @@ hr {
 }
 
 .Name {
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
 }
 
 #name {
     border: solid rgba(194, 192, 190, 0.183);
-    width: 150px;
+    width: 172px;
     height: 38px;
     text-align: left;
     border-radius: 8px;
