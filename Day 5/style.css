@@ -1,0 +1,49 @@
+body{
+    padding-left: 13%;
+    padding-right: 13%;
+}
+#paragraph{
+    text-align: justify;
+}
+header{
+    text-align: center;
+    color: blue;
+    font-size: 60px;
+    font-style: bold;
+}
+footer{
+    text-align: center;
+    padding-top: 50px;
+}
+div{
+    text-align: center;
+    border: solid;
+    border-style: groove; 
+    border-radius: 5%;
+    
+}
+button{
+    background-color: rgb(77, 196, 37);
+    color: white;
+    border-color: rgb(77, 196, 37);
+}
+p{
+    text-align: center;
+}
+
+
+#h22{
+    text-align: justify;
+    font-size: 15px;
+}
+#mobile, #Password{
+    padding-left: 175px;
+    text-align: left;
+}
+#date, #month, #year{
+    padding-left: 10px ;
+
+}
+label{
+    cursor: pointer;
+}
