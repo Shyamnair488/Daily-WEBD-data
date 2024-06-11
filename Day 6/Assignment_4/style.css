@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: red;
+    background-image: linear-gradient(10deg,lightgreen);*/
+} 
+header{
+    background-color: rgb(8, 4, 4);
+}
+
+nav{
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1114px;
+    margin: auto;
+}
+
+#logo{
+    padding: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.links{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.links a{
+    color: yellow;
+    text-decoration:none;
+    padding: 1rem;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.links a:hover{
+    background-color: green;
+    text-decoration: wavy;
+}
