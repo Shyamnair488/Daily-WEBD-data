@@ -49,7 +49,6 @@ header ul{
     color: transparent;
 }
 
-
 @keyframes rotateLight{
     from{
         --rotate:0.15turn
