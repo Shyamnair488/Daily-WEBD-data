@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* background-color: red;
     background-image: linear-gradient(10deg,lightgreen);*/
 } 
@@ -19,7 +19,7 @@ nav{
 
 #logo{
     padding: 1rem;
-    font-weight: 900;
+    font-weight: 1000;
     text-transform: uppercase;
 }
 
@@ -30,7 +30,7 @@ nav{
 }
 
 .links a{
-    color: yellow;
+    color: rgb(255, 0, 0);
     text-decoration:none;
     padding: 1rem;
     transition: all 0.5s;
@@ -40,6 +40,6 @@ nav{
 }
 
 .links a:hover{
-    background-color: green;
+    background-color: rgb(4, 75, 255);
     text-decoration: wavy;
 }

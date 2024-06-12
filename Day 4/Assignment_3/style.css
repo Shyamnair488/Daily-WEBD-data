@@ -1,5 +1,8 @@
 /* Login Page Style */
 
+table,tr,td,th{
+    border: 2px solid black;
+}
 body {
     /* padding-left: 17%;
     padding-right: 17%;     */

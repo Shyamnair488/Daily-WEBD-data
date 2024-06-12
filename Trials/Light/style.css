@@ -1,12 +1,12 @@
-body
-{
-    font-family: 'Courier New', Courier, monospace;
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap");
+body{
+    font-family: 'Commissioner' ,sans-serif;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-image: url(https://w.forfun.com/fetch/62px/62dd6779110b3b7853c1ef33200079jpeg);
+    background-image: url("https://w.forfun.com/fetch/62px/62dd6779110b3b7853c1ef33200079jpeg");
     color: #eee5;
     background-size: cover;
 }
