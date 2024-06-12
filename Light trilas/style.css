@@ -1,0 +1,62 @@
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-image: url(https://w.forfun.com/fetch/62px/62dd6779110b3b7853c1ef33200079jpeg);
+    color: #eee5;
+    background-size: cover;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+@property --rotate{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.lihght{
+    background-image: 
+    conic-gradient(
+        from var(--rotate) at 29% 10%,
+        #0b1012 40%,
+        #f4f7fc55,
+        #0b1012 60%
+        );
+    font-size: 120px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+@keyframes rotateLight{
+    from{
+        --rotate:0.15turn
+    }
+    to{
+        --royaye:-0.15turn;
+    }
+}
+
+
