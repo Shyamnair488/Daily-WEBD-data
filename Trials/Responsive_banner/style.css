@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+    color: #eee;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+header{
+    border-bottom: 1px solid #eee2;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    position: relative;
+    z-index: 100;
+}
+
+.banner{
+    background-image: url(abc.jpeg);
+    width: 100%;
+    height: 100vh;
+    margin-top: -70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner ::after{
+    content: "";
+    position: absolute;
+    inset: 0 0 0 0;
+    background-image: url(123.png);
+    /* width: 10px;
+    height: 50px; */
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    pointer-events: none;
+}
+
+.banner .Content{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.banner .Content div:nth-child(1){
+    font-size: 3em;  
+}
+
+.banner .Content div:nth-child(2){
+    font-size: 20em;  
+    font-weight: bold;
+    color: #dae2da;
+}
+
+.banner .Content div:nth-child(3){
+    text-align: center;
+}
+
+.banner .Content div button{
+    border: 1px solid #eee7;
+    background-color: transparent;
+    color: #eee;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+}
+
+@media screen and (max-width: 1200px){
+    .banner .Content{
+        font-size: 9px;
+
+    }
+
+}
+
+@media screen and (max-width :992px) {
+    .banner .Content{
+        font-size: 7px;
+    }
+    
+}
+
+@media screen and (max-width :992px) {
+    .banner .Content{
+        font-size: 4px;
+    }
+    
+}
+

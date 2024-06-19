@@ -28,7 +28,7 @@
     /* text-align: justify; */
     background-color: transparent;
     border: 2px solid rgba(255, 255, 255, 0.094);
-    box-shadow: 0 1px  10px 1px  rgba(16, 16, 232, 0.685);
+    box-shadow: 0 1px  10px 1px  rgba(32, 32, 33, 0.685);
     backdrop-filter: blur(5px);
 }
 
@@ -42,6 +42,8 @@ h1{
 p{
     color: aquamarine;
     font-variant: small-caps;
+    font-weight: 100;
+    text-align: justify;
 }
 
 #image{
@@ -58,7 +60,7 @@ p{
     margin: 20px;
     margin-left: 140px;
     padding-top: 20px;
-    box-shadow: 0 1px  10px 1px  rgb(77, 77, 214);
+    box-shadow: 0 1px  10px 1px  rgb(62, 62, 62);
 }
 
 #button:hover{
