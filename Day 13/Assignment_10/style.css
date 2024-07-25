@@ -48,7 +48,7 @@ body{
 
 
 /* home */
-.display-4 , .display-5{
+.display-4 {
     font-weight: 500;
 }
 
@@ -87,6 +87,32 @@ body{
     border-radius: 50px;
 }
 
+@media (max-width: 720px){
+    .display-4{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    .display-6{
+        font-size: 30px;
+        border: solid black;
+    }
+
+    .carousel-inner-name{
+        margin-left: 90px;
+        margin-top: -30px;
+    }
+
+    .carousel-inner{
+        display: none;
+    }
+    #home{
+        align-items: center;
+        display:contents;
+    }
+
+}
+
 
 /* about section */
 
@@ -97,15 +123,45 @@ h4{
 
 .progress{
     color: var(--skin-color);
+    border: solid rgba(0, 0, 0, 0.491);
 }
 
 h5{
     font-weight: bold;
 }
 
-#table_back{
-    /* background-color: transparent; */
+
+
+
+
+@media (max-width: 720px){
+    #about{
+        display: contents;
+    }
+    /* #block1{
+        margin-top: 20x;
+    } */
+    #Services{
+        display: contents;
+    }
+
+    #Projects{
+        display: contents;
+        display: flex;
+    }
+
+    #Contact{
+        display: contents;
+    }
+
+    #Contact_Box{
+        border: solid black;
+        color: #3f00fd;
+        width: 200px;
+
+    }
 }
+
 
 
 
@@ -128,6 +184,8 @@ h5{
     border: none;
     
 }
+
+
 
 
 
@@ -176,5 +234,19 @@ h5{
     height: 4%;
     background-color: transparent;
     color: red;
-
 }
+
+@media (max-width: 720px){
+    
+    #Contact_Box{
+        color: #3f00fd;
+        font-size: 10px;
+        align-items: center;
+        display:block;
+
+    }
+    #contact1{
+        display: flex;
+    }
+}
+

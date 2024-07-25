@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('1.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size:contain;
+    background-position: center;
+    background-color: black;
+
+
+}
+
+
+.title-box {
+    font-size: 3rem;
+    color: #61dafb;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
